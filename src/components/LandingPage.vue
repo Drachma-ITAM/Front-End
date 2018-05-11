@@ -1,12 +1,17 @@
 <template>
   <div class="landing-page">
-
+    <hero-banner/>
   </div>
 </template>
 
 <script>
-export default {
+import Hero from './Hero'
 
+export default {
+  name: 'LandingPage',
+  components: {
+    'hero-banner': Hero
+  }
 }
 </script>
 

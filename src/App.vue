@@ -16,6 +16,7 @@ html {
 }
 body {
   width: 100%;
+  margin: 0;
 }
 #app {
   width: 100%;
