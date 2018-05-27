@@ -34,6 +34,7 @@ export default {
   align-items: center;
   background-color: lightgrey;
   flex-wrap: wrap;
+  box-shadow: inset 0 0 0 200px rgba(10, 0, 0, 0.08);
 }
 
 .label{
